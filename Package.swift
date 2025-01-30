@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "WebRTCAudioProcessing",
+    name: "CaretAudioProcessing",
     platforms: [
         .macOS(.v14)
     ],
     products: [
         .library(
-            name: "WebRTCAudioProcessing",
-            targets: ["WebRTCAudioProcessing"]
+            name: "CaretAudioProcessing",
+            targets: ["CaretAudioProcessing"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "WebRTCAudioProcessing",
-            url: "https://github.com/dsa28s/webrtc-audio-processing/releases/download/1.0.0/libwebrtc-audio-processing_1.0.xcframework.zip",
-            checksum: "d21a750d4fd1d1b12329f7bbd7235afaa0e10874b131974e37a09de26e9153ef"
+            name: "CaretAudioProcessing",
+            url: "https://github.com/dsa28s/webrtc-audio-processing/releases/download/1.1.0/CaretAudioProcessing.xcframework@1.1.0.zip",
+            checksum: "a7ca2db1de0ea6c2c8404fb37f2580bd10343a7add3c9b82a0354cd5c3a0f3e3"
         ),
     ]
 )
