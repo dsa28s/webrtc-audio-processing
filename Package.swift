@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CaretAudioProcessing",
-            url: "https://github.com/dsa28s/webrtc-audio-processing/releases/download/1.1.4/CaretAudioProcessing.xcframework@1.1.4.zip",
-            checksum: "cad532e3bc2edc98a22ac90c4d1288d6a8aee6083be698661293108a1851700c"
+            url: "https://github.com/dsa28s/webrtc-audio-processing/releases/download/1.1.5/CaretAudioProcessing.xcframework@1.1.5.zip",
+            checksum: "ecae1a9af3a8d03bdcdb1f48d47db954377e39054dd65b7ad9f99a074d97c24d"
         ),
     ]
 )
