@@ -21,8 +21,7 @@ let package = Package(
         ),
         .target(
             name: "CaretAudioProcessingSwift",
-            dependencies: ["CaretAudioProcessing"],
-            swiftSettings: [.interoperabilityMode(.C), .interoperabilityMode(.Cxx)]
+            dependencies: ["CaretAudioProcessing"]
         ),
     ]
 )
