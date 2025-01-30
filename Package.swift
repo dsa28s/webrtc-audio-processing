@@ -23,5 +23,7 @@ let package = Package(
             name: "CaretAudioProcessingSwift",
             dependencies: ["CaretAudioProcessing"]
         ),
-    ]
+    ],
+    cLanguageStandard: .c11,
+    cxxLanguageStandard: .cxx17
 )
